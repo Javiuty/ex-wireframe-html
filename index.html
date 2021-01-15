@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>Wireframe to HTML</title>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style file -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <img src="./images/logo.jpg" alt="Logo" />
+      <ul class="container-rrss">
+        <li><img src="images/twitter_icon.png" alt="Icono Twitter" /></li>
+        <li><img src="images/insta_icon.png" alt="Icono Twitter" /></li>
+        <li><img src="images/facebook_icon.png" alt="Icono Twitter" /></li>
+      </ul>
+    </header>
+
+    <!-- Nav -->
+    <nav>
+      <div><p>Nuestros vehículos</p></div>
+      <div><p>Buscar y Comprar</p></div>
+      <div><p>Financiación y Servicios</p></div>
+      <div><p>Tecnología e Innovación</p></div>
+      <div><p>Recambios</p></div>
+    </nav>
+
+    <main>
+      <!-- Section Images -->
+      <section class="images">
+        <div>
+          <img src="images/img-1.jpg" alt="imagen-1" />
+          <h3>Lorem ipsum</h3>
+          <button type="button" class="btn">Acceder</button>
+        </div>
+        <div>
+          <img src="images/img-2.jpg" alt="imagen-2" />
+          <h3>Lorem ipsum</h3>
+          <button type="button" class="btn">Acceder</button>
+        </div>
+        <div>
+          <img src="images/img-3.jpg" alt="imagen-3" />
+          <h3>Lorem ipsum</h3>
+          <button type="button" class="btn">Acceder</button>
+        </div>
+      </section>
+
+      <!-- Section Principal -->
+      <section class="principal">
+        <p></p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p><span class="year"></span> &copy; Mercedes-Benz España</p>
+    </footer>
+
+    <!-- Pequeño Script para el año del copyright -->
+    <script>
+      document.querySelector(".year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
